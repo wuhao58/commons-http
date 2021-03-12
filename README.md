@@ -3,7 +3,7 @@
 |  ----  | ----  | ----  |
 | spring-boot  | 2.2.5.RELEASE |   |
 | fastjson  | 1.2.60 |   |
-| okhttp  | 3.14.7 |  |
+| okhttp  | 3.14.7 |  okhttp3 |
 
 
 ###  2. 需求解决
@@ -11,5 +11,5 @@
 
 
 ###  3. 更换json解析
-- 默认使用jackson进行对象解析。
+- 默认使用jackson进行解析。
 - 如果想使用fastjson，更换JacksonUtil.class为FastjsonUtil.class即可。
